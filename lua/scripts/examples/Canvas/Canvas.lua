@@ -27,7 +27,7 @@ while not Keys.held.Start do
     nb = nb + 1
     
     Canvas.draw(SCREEN_UP, canvas, 0, 0)                                                                     -- Display the canvas
-	screen.print(SCREEN_DOWN, 0, 0, "FPS: "..NB_FPS)
+	screen.print(SCREEN_DOWN, 0, 0, "Frames Per Second: "..NB_FPS)
 	screen.print(SCREEN_DOWN, 0, 8, "IMG: "..nb)
 	screen.print(SCREEN_DOWN, 0, 50, "Press START to quit")
     
